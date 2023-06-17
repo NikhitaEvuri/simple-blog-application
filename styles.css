@@ -1,0 +1,31 @@
+.nav-link:hover {
+  cursor: pointer;
+}
+
+.nav-underline {
+  gap: 0px;
+  font-size: 15px;
+}
+
+.my-blog {
+  display: flex;
+  height: 150px;
+  margin-bottom: 30px;
+}
+
+.blog-title {
+  font-weight: bold;
+}
+
+.blog-description {
+  margin-top: 2px;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.blog-image {
+  margin-left: auto;
+  width: 30%;
+  object-fit: cover;
+}
